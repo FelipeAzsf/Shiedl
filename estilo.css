@@ -1,0 +1,149 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+
+}
+
+
+body{
+	display: grid;
+	grid-template-areas: 
+	"header header" 
+	"aside main" 
+	"footer footer";
+	grid-template-columns: 90px 1fr;
+	grid-template-rows: 60px 1fr 30px;
+	height: 100vh;
+	background: radial-gradient(circle, rgba(24,24,24,1) 0%, rgba(20,20,20,1) 100%);
+}
+
+header{
+	grid-area: header;
+	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(22,22,22,1) 100%);
+	display: flex;
+	align-items: center;
+	padding-left: 42%;
+	border-radius: 20%;
+
+}
+
+h1{
+	font-family: Rubik 8px;
+	color: rgb(149,149,149);
+}
+
+h3{
+	margin: 5%;
+	color: whitesmoke;
+	font-family: Rubik 8px;
+	font-style: none;}
+
+a{
+	text-decoration: none;
+	color: whitesmoke;
+	font-family: Rubik 8px;
+
+}
+
+
+
+main{
+	background: radial-gradient(circle, rgba(24,24,24,1) 0%, rgba(41,41,41,1) 100%);
+	border-radius: 5%;
+	box-shadow: blue 0px 0px 10px 5px ;
+	width: auto;
+	height: auto;
+	box-sizing: content-box;
+	padding: 3%;
+	margin: 3% 3% 0 3%;
+	font-family: Rubik 8px;
+
+	
+
+}
+
+aside{
+	grid-area: aside;
+	margin: 10px 0 0 0;
+	background: radial-gradient(circle, rgba(24,24,24,1) 0%, rgba(41,41,41,1) 100%);
+	border-radius: 10px;
+	height: auto;
+
+
+}
+
+
+
+.icontoptam{
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+}
+
+
+
+.menlatext{
+	font-size: 15px;
+	list-style: none;
+	color: whitesmoke;
+	position: relative;
+	right: 30px;
+	top: 8px;
+	margin: 5% 0;
+	background: linear-gradient(0deg, rgba(0,3,62,1) 0%, rgba(0,1,122,1) 100%);
+	width:140%;
+	font-family: Rubik 8px;
+
+
+}
+
+.imagmain{
+	width: 180px;
+	height: 240px;
+	border-radius: 10px;
+	position:flex;
+
+}
+
+
+
+.textimag{
+	position: block;
+	left: 200px;
+	bottom: 200px;
+	text-align: justify;
+	margin: 10px 0;
+	font-family: Rubik 8px;
+	background: radial-gradient(circle, rgba(24,24,24,1) 0%, rgba(0,1,80,1) 100%);
+	margin: 5%;
+	color: whitesmoke;
+	padding: 5%;
+	border-radius: 3%;
+
+
+	
+}
+
+.vid{
+	position: relative;
+	left: 185px;
+	bottom: 250px;
+	box-sizing: content-box;
+	border-radius: 2%;
+
+}
+
+.mark2{
+	width: 180px;
+	height: 280px;
+	border-radius: 10%;
+	box-sizing: content-box;
+
+}
+
+.vidmark2{
+	position: relative;
+	left: 5px;
+	box-sizing: content-box;
+	border-radius: 2%;
+}
